@@ -1,0 +1,84 @@
+/* *COMMON CSS STARTS HERE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  ul,
+  ol {
+    list-style: none;
+  }
+  
+  body {
+    font-family: Poppins, system-ui;
+  }
+  
+  .img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .container {
+    max-width: 1240px;
+    margin: auto;
+  }
+  
+  .btn-primary {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+    background-color: #b88e2f;
+    padding: 12px 36px;
+    display: inline-block;
+    text-transform: capitalize;
+  }
+  
+  /** COMMON CSS ENDS HERE */
+  
+  /* *NAVBAR STARTS HERE */
+  nav .row {
+    align-items: center;
+  }
+  nav .quickMenu {
+    width: 30%;
+  }
+  nav .menu {
+    width: 45%;
+  }
+  nav .logo {
+    width: 25%;
+  }
+  
+  nav .menu ul {
+    justify-content: center;
+  }
+  nav .menu ul li a {
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+    padding: 38px 37.5px;
+    display: inline-block;
+  }
+  
+  nav .quickMenu ul {
+    justify-content: end;
+  }
+  nav .quickMenu ul li a {
+    font-size: 22px;
+    color: black;
+    padding: 36px 22.5px;
+    display: inline-block;
+  }
+  
+  /* *NAVBAR ENDS HERE */
+  
